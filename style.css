@@ -1,0 +1,51 @@
+        body {
+            background: url("background.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: white;
+            text-align: center;
+        }
+        
+        #title {
+            font-size: 40px;
+            background-color: #374148;
+            margin-top: 0px;
+            padding: 10px;
+            color: white;
+        }
+        
+        #start {
+            font-size: 20px;
+            background-color: #374148;
+        }
+        
+        #status,
+        #objectNumber {
+            font-size: 25px;
+            background-color: #374148;
+        }
+        
+        #footer {
+            background-color: #374148;
+            color: white;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            font-size: 18px;
+            padding: 10px;
+        }
+        
+        canvas {
+            border: 5px solid #374148;
+            box-shadow: 10px 10px 10px black;
+            border-radius: 20px;
+            margin-top: 3%;
+        }
+        
+        #volume1 {
+            width: 25%;
+        }
+        
+        .volume::-webkit-slider-thumb {
+            background: black;
+        }
